@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <NavBar></NavBar>
       <WelcomeSlide></WelcomeSlide>
+      <WelcomeSlide></WelcomeSlide>
       <h1>Hello world</h1>
     </div>
   );
