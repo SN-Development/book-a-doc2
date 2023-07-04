@@ -1,0 +1,44 @@
+button:hover{
+    background-color: transparent;
+    background-image: none;
+    color:blue;
+    border: 0.4vh solid blue;
+}
+p#h-text-1{
+    position: static;
+    animation: fadeIn 5s infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes fadeIn {
+    0%
+    { 
+      opacity: 0; 
+    }
+    50%
+    { 
+      opacity: 0.5; 
+    }
+    100% 
+    { 
+      opacity: 1;
+    }
+  }
+  p#h-text-2{
+    position: static;
+    animation: fadeIn 5s infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes fadeIn {
+    0%
+    { 
+      opacity: 0; 
+    }
+    50%
+    { 
+      opacity: 0.5; 
+    }
+    100% 
+    { 
+      opacity: 1;
+    }
+  }
